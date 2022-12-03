@@ -1,14 +1,14 @@
 // --- Day 1: Calorie Counting ---
 import { readFileSync } from 'fs';
 
-const star1 = readFileSync('input-01.txt')
+const star1 = readFileSync('input/input-01.txt')
   .toString()
   .split('\n\n')
   .map((elf) =>
     elf
       .split(/[^0-9]/)
-      .filter((food) => food !== '')
-      .reduce((sum, food) => sum + parseInt(food), 0)
+      .map(Number)
+      .reduce((a, b) => a + b)
   )
   .sort((a, b) => a - b)
   .reverse();
