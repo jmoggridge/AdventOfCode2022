@@ -1,14 +1,59 @@
 {
-  "name": "aoc-2022",
+  "name": "adventofcode2022",
   "version": "1.0.0",
   "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "commander": "^9.4.1",
+    "crypto-random-string": "^4.0.0",
+    "deepmerge": "^4.2.2",
+    "find-up": "^6.3.0",
+    "fs": "^0.0.1-security",
+    "fs-extra": "^10.1.0",
+    "graceful-fs": "^4.2.10",
+    "is-stream": "^3.0.0",
+    "isexe": "^2.0.0",
+    "jsonfile": "^6.1.0",
+    "locate-path": "^7.1.1",
+    "lru-cache": "^6.0.0",
+    "p-debounce": "^4.0.0",
+    "p-limit": "^4.0.0",
+    "p-locate": "^6.0.0",
+    "path-exists": "^5.0.0",
+    "pkg-up": "^4.0.0",
+    "semver": "^7.3.8",
+    "temp-dir": "^2.0.0",
+    "tempy": "^3.0.0",
+    "type-fest": "^2.19.0",
+    "typescript-language-server": "^2.1.0",
+    "unique-string": "^3.0.0",
+    "universalify": "^2.0.0",
+    "vscode-jsonrpc": "^8.0.2",
+    "vscode-languageserver": "^8.0.2",
+    "vscode-languageserver-protocol": "^3.17.2",
+    "vscode-languageserver-textdocument": "^1.0.7",
+    "vscode-languageserver-types": "^3.17.2",
+    "vscode-uri": "^3.0.6",
+    "which": "^2.0.2",
+    "yallist": "^4.0.0",
+    "yocto-queue": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.10",
+    "typescript": "^4.9.3"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jmoggridge/AdventOfCode2022.git"
+  },
+  "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "fs": "^0.0.1-security"
+  "bugs": {
+    "url": "https://github.com/jmoggridge/AdventOfCode2022/issues"
   },
-  "type": "module"
+  "homepage": "https://github.com/jmoggridge/AdventOfCode2022#readme"
 }
